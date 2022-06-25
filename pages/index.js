@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Faq from "./components/Faq";
-import questions from "./data/questions";
+import Faq from "../components/Faq";
+import questions from "../data/questions";
 
 export default function Home() {
     return (
