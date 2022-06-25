@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
 
 const Faq = ({questions}) => (
-    <div className="w-full px-4 pt-8">
+    <div className="w-full">
         <div className="mx-auto w-full max-w-2xl rounded-2xl bg-fdark-500 p-2">
             {questions.map((question, index) => (
                 <QuestionAnswer key={index} index={index} question={question}/>
