@@ -15,7 +15,7 @@ export default function Home() {
                 <h1 className="text-4xl md:text-6xl font-bold">
                     Faq du climat
                 </h1>
-                <p className={"mt-6 text-center"}>Les meilleurs réponses à ton oncle climatosceptique 📝</p>
+                <p className={"mt-6 text-center text-fdark-200 text-lg"}>Les meilleurs réponses à ton oncle climatosceptique 📝</p>
                 <ModeSelector/>
             </main>
 
