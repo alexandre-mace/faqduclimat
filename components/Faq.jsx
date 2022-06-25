@@ -3,7 +3,7 @@ import { ChevronUpIcon } from '@heroicons/react/solid'
 
 const Faq = ({questions}) => (
     <div className="w-full">
-        <div className="mx-auto w-full max-w-2xl rounded-2xl bg-fdark-500 p-2">
+        <div className="mx-auto w-full max-w-2xl rounded-2xl border-2 border-gray-700 border-opacity-50 bg-fdark-500 p-2">
             {questions.map((question, index) => (
                 <QuestionAnswer key={index} index={index} question={question}/>
             ))}

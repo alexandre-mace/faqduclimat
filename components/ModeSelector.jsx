@@ -15,7 +15,7 @@ const ModeSelector = () => {
     return (
         <div className="w-full max-w-2xl pt-10 md:px-8">
             <Tab.Group>
-                <Tab.List className="flex space-x-1 rounded-xl bg-fdark-500 p-2">
+                <Tab.List className="flex space-x-1 rounded-xl border-2 border-gray-700 border-opacity-50 bg-fdark-500 p-2">
                     {(modes).map((mode) => (
                         <Tab
                             key={mode}
