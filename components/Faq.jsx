@@ -15,7 +15,7 @@ const QuestionAnswer = ({question, index}) => (
     <Disclosure as="div" className={index === 0 ? '' : 'mt-2'}>
         {({ open }) => (
             <>
-                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-fdark-300 px-4 py-2 text-left text-sm font-medium text-white hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-fdark-300 px-4 py-2 text-left text-sm font-medium text-white hover:bg-fpurple-500 focus:outline-none focus-visible:ring focus-visible:ring-gray-500 focus-visible:ring-opacity-75">
                     <span>{question.title}</span>
                     <ChevronUpIcon
                         className={`${
