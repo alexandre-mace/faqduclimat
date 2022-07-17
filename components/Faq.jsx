@@ -1,34 +1,53 @@
-import { Disclosure } from '@headlessui/react'
-import { ChevronUpIcon } from '@heroicons/react/solid'
+import { useState } from 'react'
+import { Tab } from '@headlessui/react'
+import Classic from "./Classic";
+import questions from "../data/questions";
+import Random from "./Random";
 
-const Faq = ({questions}) => (
-    <div className="w-full">
-        <div className="mx-auto w-full max-w-2xl rounded-2xl border-2 border-gray-700 border-opacity-50 bg-fdark-500 p-2">
-            {questions.map((question, index) => (
-                <QuestionAnswer key={index} index={index} question={question}/>
-            ))}
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
+
+const Faq = () => {
+    const modes = ['Classique 🤓', 'Aléatoire 🔀']
+    const [mode, setMode] = useState(modes[0]);
+
+    return (
+        <div className="w-full max-w-2xl pt-10 md:px-8">
+            <Tab.Group>
+                <Tab.List className="flex space-x-1 rounded-xl border-gray-700 border-opacity-50 bg-gradient-to-r to-indigo-500 from-purple-500 p-2 shadow">
+                    {(modes).map((mode) => (
+                        <Tab
+                            key={mode}
+                            className={({ selected }) =>
+                                classNames(
+                                    'w-full rounded-lg py-2.5 font-medium leading-5 text-white',
+                                    'ring-gray-700 ring-opacity-50 ring-offset-fpurple-500 focus:outline-none focus:ring-2',
+                                    selected
+                                        ? 'bg-fdark-300 shadow'
+                                        : 'bg-fdark-300/50 hover:bg-fpurple-500 hover:text-white'
+                                )
+                            }
+                        >
+                            {mode}
+                        </Tab>
+                    ))}
+                </Tab.List>
+                <Tab.Panels className="mt-4">
+                    {modes.map((mode, idx) => (
+                        <Tab.Panel key={idx}>
+                            {idx === 0 &&
+                                <Classic questions={questions}/>
+                            }
+                            {idx === 1 &&
+                                <Random questions={questions}/>
+                            }
+                        </Tab.Panel>
+                    ))}
+                </Tab.Panels>
+            </Tab.Group>
         </div>
-    </div>
-)
-
-const QuestionAnswer = ({question, index}) => (
-    <Disclosure as="div" className={index === 0 ? '' : 'mt-2'}>
-        {({ open }) => (
-            <>
-                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-fdark-300 px-4 py-2 text-left text-sm font-medium text-white hover:bg-fpurple-500 focus:outline-none focus-visible:ring focus-visible:ring-gray-500 focus-visible:ring-opacity-75">
-                    <span>{question.title}</span>
-                    <ChevronUpIcon
-                        className={`${
-                            open ? 'rotate-180 transform' : ''
-                        } h-5 w-5 text-gray-400`}
-                    />
-                </Disclosure.Button>
-                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white">
-                    {question.answer}
-                </Disclosure.Panel>
-            </>
-        )}
-    </Disclosure>
-)
+    )
+}
 
 export default Faq

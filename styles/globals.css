@@ -18,3 +18,9 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  ul, ol, li {
+    list-style: revert;
+  }
+}
