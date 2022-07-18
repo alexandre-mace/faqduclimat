@@ -1,7 +1,7 @@
 const categories = {
     one: '🥵 Climat',
-    two: '🌍 Énergie',
-    three: '🥼 Biodiversité',
+    two: '💪 Énergie',
+    three: '🌍 Biodiversité',
 }
 
 const questions = [
@@ -21,11 +21,15 @@ const questions = [
     {
         title: "Est-il trop tard pour agir ?",
         category: categories.one,
-        answer: "Non, il n'est pas trop tard pour agir sur le réchauffement planétaire : \"le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique\" \n",
+        answer: 
+        "- Non, il n'est pas trop tard pour agir sur le réchauffement planétaire : \"le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique\" \n" +
+        "- Cependant, certains changements comme la fonte des glaciers sont irréversibles et vont se produire sur plusieurs siècles. \n",
+       
         sources: [
             'https://www.youtube.com/watch?v=iiKuUElvGhM',
             'https://www.carbonbrief.org/explainer-will-global-warming-stop-as-soon-as-net-zero-emissions-are-reached/',
-            'https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/'
+            'https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/',
+            'https://www.novethic.fr/actualite/environnement/climat/isr-rse/science-meme-avec-un-rechauffement-limite-a-2-c-la-fonte-des-glaces-pourrait-etre-irreversible-et-entrainer-une-montee-des-oceans-catastrophique-146591.html'
         ]
     },
     {
