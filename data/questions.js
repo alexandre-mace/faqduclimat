@@ -8,11 +8,12 @@ const questions = [
     {
         title: "Que dit le GIEC sur le climat ?",
         category: categories.one,
-        answer:
-"- Il est incontestable que l’influence humaine a réchauffé l’atmosphère, les océans et les terres.\n" +
-"- 100% du réchauffement climatique est dû aux activités humaines.\n" +
-"- L’ampleur des changements récents dans l’ensemble du système climatique et l’état actuel de nombreux aspects du système climatique sont sans précédent, de plusieurs siècles à plusieurs milliers d’années.\n" +
-"- Le changement climatique d’origine humaine affecte déjà de nombreux phénomènes météorologiques et climatiques extrêmes dans toutes les régions du monde.\n",
+        answer: "
+- Il est incontestable que l’influence humaine a réchauffé l’atmosphère, les océans et les terres. 
+- 100% du réchauffement climatique est dû aux activités humaines.
+- L’ampleur des changements récents dans l’ensemble du système climatique et l’état actuel de nombreux aspects du système climatique sont sans précédent, de plusieurs siècles à plusieurs milliers d’années.
+- Le changement climatique d’origine humaine affecte déjà de nombreux phénomènes météorologiques et climatiques extrêmes dans toutes les régions du monde.
+"
         sources: [
             'https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/'
         ]
