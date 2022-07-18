@@ -14,7 +14,8 @@ const questions = [
 "- L’ampleur des changements récents dans l’ensemble du système climatique et l’état actuel de nombreux aspects du système climatique sont sans précédent, de plusieurs siècles à plusieurs milliers d’années.\n" +
 "- Le changement climatique d’origine humaine affecte déjà de nombreux phénomènes météorologiques et climatiques extrêmes dans toutes les régions du monde.\n",
         sources: [
-            'https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/'
+            'https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/',
+            'https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/',
         ]
     },
     {
