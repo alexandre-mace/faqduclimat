@@ -33,9 +33,9 @@ const questions = [
         ]
     },
     {
-        title: "3",
-        category: categories.two,
-        answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda, cumque debitis doloremque dolores facere iste iure modi, nostrum, obcaecati pariatur reprehenderit tenetur. Accusamus amet commodi esse est eum, nihil.\n",
+        title: "Les activistes climats sont-ils des dangereux radicaux ?",
+        category: categories.one,
+        answer: "« Les activistes climats sont souvent décrits comme des dangereux radicaux mais les dangereux radicaux sont les pays qui augmentent la production des énergies fossiles ». Antonio Guterres, secrétaire général de l’ONU, à propos du dernier rapport du GIEC. \n",
         sources: [
             'https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/'
         ]
