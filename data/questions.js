@@ -33,6 +33,17 @@ const questions = [
         ]
     },
     {
+        title: "L'inaction climatique coute-t'elle plus cher que l'action climatique ?",
+        category: categories.one,
+        answer: 
+        "- L’économie sera durement impactée par le changement climatique, puisque les conditions seront si dures qu’il ne sera tout simplement plus possible de travailler \n" +
+        "- Par exemple, l’Inde perd actuellement plus de 100 milliards d’heures de travail par an à cause des vagues de chaleur. C’est de très loin le pays le plus concerné par le sujet, et les chiffres anticipés par un réchauffement de +2°C ou +4°C sont bien supérieurs. \n",
+       
+        sources: [
+            'https://www.nature.com/articles/s41467-021-27328-y',
+        ]
+    },
+    {
         title: "Les activistes climats sont-ils des dangereux radicaux ?",
         category: categories.one,
         answer: "« Les activistes climats sont souvent décrits comme des dangereux radicaux mais les dangereux radicaux sont les pays qui augmentent la production des énergies fossiles ». Antonio Guterres, secrétaire général de l’ONU, à propos du dernier rapport du GIEC. \n",
