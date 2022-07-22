@@ -48,6 +48,15 @@ const questions = [
         ]
     },
     {
+        title: "Migrer ou mourir ?",
+        category: categories.one,
+        answer: 
+        "- Le Bangladesh est l’un des pays les plus touchés par les dérèglements climatiques. À cause de la montée des eaux, 700 000 Bangladais perdent déjà chaque année leur foyer. \n" +
+        sources: [
+            '[https://bonpote.com/criminels-climatiques-pourquoi-personne-ne-les-connait/](https://bonpote.com/criminels-climatiques-pourquoi-personne-ne-les-connait/)',
+        ]
+    },
+    {
         title: "Les évenements météorologiques extrêmes sont-ils vraiment dus au changement climatique ?",
         category: categories.one,
         answer: 
