@@ -24,3 +24,7 @@ a {
     list-style: revert;
   }
 }
+
+.sources a:hover {
+  @apply text-gray-200;
+}

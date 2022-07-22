@@ -24,8 +24,8 @@ const AnswerContent = ({question}) => (
             <ReactMarkdown className=''>{question.answer}</ReactMarkdown>
             <hr className={"mt-8 mb-4"}/>
             <div className={"font-semibold"}>Sources</div>
-            <ul className={"mt-2"}>
-                    {question.sources.map((source, index) => (<li key={index}><a className={"hover:text-gray-200"} href={source}>{source}</a></li>))}
+            <ul className={"mt-2 sources"}>
+                    {question.sources.map((source, index) => (<li key={index}><ReactMarkdown>{source}</ReactMarkdown></li>))}
             </ul>
     </>
 )
