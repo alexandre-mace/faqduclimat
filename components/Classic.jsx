@@ -5,7 +5,7 @@ import React from "react"
 
 const Classic = ({questions}) => (
     <div className="w-full">
-        <div className="mx-auto w-full max-w-2xl rounded-2xl bg-gradient-to-r to-indigo-500 from-purple-500 p-3">
+        <div className="mx-auto w-full max-w-2xl rounded-2xl bg-gradient-to-r to-indigo-500 from-purple-500 p-3 shadow">
             {questions.map((question, index) => (
                 <React.Fragment key={index}>
                     {((index > 1 && question.category !== questions[index - 1].category) || index === 0) &&
