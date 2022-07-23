@@ -15,7 +15,7 @@ const questions = [
 "- Le changement climatique d’origine humaine affecte déjà de nombreux phénomènes météorologiques et climatiques extrêmes dans toutes les régions du monde.\n",
         sources: [
             '[https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/)',
-            '[https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/'](https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/'),
+            '[https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/](https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/)',
         ]
     },
     {
@@ -51,7 +51,7 @@ const questions = [
         title: "Migrer ou mourir ?",
         category: categories.one,
         answer: 
-        "- Le Bangladesh est l’un des pays les plus touchés par les dérèglements climatiques. À cause de la montée des eaux, 700 000 Bangladais perdent déjà chaque année leur foyer. \n" +
+        "- Le Bangladesh est l’un des pays les plus touchés par les dérèglements climatiques. À cause de la montée des eaux, 700 000 Bangladais perdent déjà chaque année leur foyer. \n",
         sources: [
             '[https://bonpote.com/criminels-climatiques-pourquoi-personne-ne-les-connait/](https://bonpote.com/criminels-climatiques-pourquoi-personne-ne-les-connait/)',
         ]
@@ -87,10 +87,10 @@ const questions = [
         category: categories.one,
         answer: 
         "- 1 % des plus riches ont une empreinte carbone huit fois supérieure à la moitié la plus pauvre des Français. \n" +
-        "- La fiscalité carbone pèse proportionnellement quatre fois plus sur les 20 % de foyers les plus précaires que sur les 20 % de ménages les plus riches. \n",
-        "- Les plus pauvres sont les plus exposés au changement climatique. \n",
-        "- Les plus jeunes seront les plus exposés au changement climatique. \n",
-        "- \"La vulnérabilité des écosystèmes et des populations au changement climatique varie considérablement d'une région à l'autre et au sein d'une même région (confiance très élevée), sous l'effet de schémas de développement socio-économique croisés, de l'utilisation non durable l'utilisation des océans et des terres, l'inégalité, la marginalisation, les schémas historiques et permanents d'inégalité tels que le colonialisme, et la gouvernance (confiance élevée).\" \n", 
+        "- La fiscalité carbone pèse proportionnellement quatre fois plus sur les 20 % de foyers les plus précaires que sur les 20 % de ménages les plus riches. \n" +
+        "- Les plus pauvres sont les plus exposés au changement climatique. \n" +
+        "- Les plus jeunes seront les plus exposés au changement climatique. \n" +
+        "- \"La vulnérabilité des écosystèmes et des populations au changement climatique varie considérablement d'une région à l'autre et au sein d'une même région (confiance très élevée), sous l'effet de schémas de développement socio-économique croisés, de l'utilisation non durable l'utilisation des océans et des terres, l'inégalité, la marginalisation, les schémas historiques et permanents d'inégalité tels que le colonialisme, et la gouvernance (confiance élevée).\" \n" +
         "- \"Environ 3,3 à 3,6 milliards de personnes vivent dans des contextes qui sont hautement vulnérables au changement climatique (confiance élevée). Une proportion élevée d'espèces est vulnérable au changement climatique (confiance élevée). La vulnérabilité de l'homme et celle des écosystèmes sont interdépendantes (confiance élevée). Les modèles actuels de développement non durable augmentent l'exposition des écosystèmes et des personnes aux risques climatiques.\" \n", 
 
         sources: [
