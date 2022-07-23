@@ -83,6 +83,22 @@ const questions = [
         ]
     },
     {
+        title: "Pourquoi parles-t'on d'injustice climatique ?",
+        category: categories.one,
+        answer: 
+        "- 1 % des plus riches ont une empreinte carbone huit fois supérieure à la moitié la plus pauvre des Français. \n" +
+        "- La fiscalité carbone pèse proportionnellement quatre fois plus sur les 20 % de foyers les plus précaires que sur les 20 % de ménages les plus riches. \n",
+        "- Les plus pauvres sont les plus exposés au changement climatique. \n",
+        "- Les plus jeunes seront les plus exposés au changement climatique. \n",
+        "- \"La vulnérabilité des écosystèmes et des populations au changement climatique varie considérablement d'une région à l'autre et au sein d'une même région (confiance très élevée), sous l'effet de schémas de développement socio-économique croisés, de l'utilisation non durable l'utilisation des océans et des terres, l'inégalité, la marginalisation, les schémas historiques et permanents d'inégalité tels que le colonialisme, et la gouvernance (confiance élevée).\" \n", 
+        "- \"Environ 3,3 à 3,6 milliards de personnes vivent dans des contextes qui sont hautement vulnérables au changement climatique (confiance élevée). Une proportion élevée d'espèces est vulnérable au changement climatique (confiance élevée). La vulnérabilité de l'homme et celle des écosystèmes sont interdépendantes (confiance élevée). Les modèles actuels de développement non durable augmentent l'exposition des écosystèmes et des personnes aux risques climatiques.\" \n", 
+
+        sources: [
+            '[https://twitter.com/valmasdel/status/1538155011070476290?s=20&t=3uEgre3Fm4VLPzDc-ENPPQ](https://twitter.com/valmasdel/status/1538155011070476290?s=20&t=3uEgre3Fm4VLPzDc-ENPPQ)',
+            '[https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf](https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf)',
+        ]
+    },
+    {
         title: "Les activistes climats sont-ils des dangereux radicaux ?",
         category: categories.one,
         answer: "« Les activistes climats sont souvent décrits comme des dangereux radicaux mais les dangereux radicaux sont les pays qui augmentent la production des énergies fossiles ». Antonio Guterres, secrétaire général de l’ONU, à propos du dernier rapport du GIEC. \n",
