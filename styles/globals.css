@@ -25,6 +25,9 @@ a {
   }
 }
 
+.sources {
+  @apply text-sm text-white;
+}
 .sources a:hover {
   @apply text-gray-200;
 }
