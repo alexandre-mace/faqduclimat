@@ -97,15 +97,7 @@ const questions = [
             '[https://twitter.com/valmasdel/status/1538155011070476290?s=20&t=3uEgre3Fm4VLPzDc-ENPPQ](https://twitter.com/valmasdel/status/1538155011070476290?s=20&t=3uEgre3Fm4VLPzDc-ENPPQ)',
             '[https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf](https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf)',
         ]
-    },
-    {
-        title: "Les activistes climats sont-ils des dangereux radicaux ?",
-        category: categories.one,
-        answer: "« Les activistes climats sont souvent décrits comme des dangereux radicaux mais les dangereux radicaux sont les pays qui augmentent la production des énergies fossiles ». Antonio Guterres, secrétaire général de l’ONU, à propos du dernier rapport du GIEC. \n",
-        sources: [
-            '[https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/](https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/)'
-        ]
-    },
+    }
 ]
 
 export default questions
