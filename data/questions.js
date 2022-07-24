@@ -18,6 +18,20 @@ const questions = [
         ]
     },
     {
+        title: "Météo et climat: quelle différence ?",
+        category: categories.one,
+        answer:
+"- La météorologie, étudie les processus qui pilotent la dynamique de l’atmosphère et leur mise en équations, notamment en vue de la prévision du temps. Cette prévision n’a plus de sens au bout d’une dizaine de jours car l’état de l’atmosphère à un jour et un endroit donné, dépend fortement des conditions initiales. Cela est lié au caractère chaotique de la circulation atmosphérique.\n" +
+"- La météo, c'est le temps qu’il fait à un moment et à un endroit donné.\n" +
+"- Les prévisions météorologiques n’ont de validité que localement et pour une période courte, de quelques jours. C’est pourquoi une période de froid prononcée localement, ne remet pas en cause la réalité du réchauffement planétaire. De même, une tempête inhabituellement violente n’est pas forcément une preuve de modification du climat. Pour l’affirmer, il faut pouvoir constater que la fréquence d’un événement climatique augmente de façon significative dans une région donnée et sur une longue période. \n" +
+"- La climatologie analyse l’état moyen de l’atmosphère et des océans sur les grandes échelles de temps et étudie les processus physiques qui sont pertinents sur le long terme. Pour cette analyse, les conditions initiales n’ont pas d’importance. \n",
+"- L'évolution du climat s'observe sur une plus longue période.\n",
+"- Le climat désigne les valeurs moyennes des paramètres météorologiques (précipitations, températures, nébulosité...) mesurées sur de longues périodes et sur des secteurs géographiques vastes et bien définis, appelés zones climatiques. 30 ans d’observations sont nécessaires pour définir des caractéristiques d’ordre climatique. \n",
+        sources: [
+            '[https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat](https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat)',
+        ]
+    },
+    {
         title: "Que dit le GIEC sur le climat ?",
         category: categories.one,
         answer:
@@ -30,7 +44,6 @@ const questions = [
             '[https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/](https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/)',
         ]
     },
-   
     {
         title: "Est-il trop tard pour agir ?",
         category: categories.one,
