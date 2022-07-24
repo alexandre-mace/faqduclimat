@@ -63,6 +63,17 @@ const questions = [
         ]
     },
     {
+        title: "Effet de serre et Gaz à effet de serre ?",
+        category: categories.one,
+        answer:
+"- L’effet de serre est un phénomène naturel. Présents dans l’atmosphère, certains gaz retiennent une part de l’énergie solaire renvoyée vers l’espace par la Terre sous forme de rayonnement infrarouge.\n" +
+"- Ils maintiennent ainsi la température sur Terre à une moyenne d’environ 15 °C. Sans eux, cette moyenne descendrait à -18 °C, interdisant le développement de la vie. \n" +
+"- Ces gaz à effet de serre sont présents naturellement dans l’atmosphère, comme le gaz carbonique (CO2), le méthane (CH4) ou la vapeur d’eau (H2O). \n",
+        sources: [
+            '[https://www.ademe.fr/expertises/changement-climatique/quoi-parle-t](https://www.ademe.fr/expertises/changement-climatique/quoi-parle-t)',
+        ]
+    },
+    {
         title: "Est-il trop tard pour agir ?",
         category: categories.one,
         answer: 
