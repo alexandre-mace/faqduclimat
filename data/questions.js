@@ -9,9 +9,8 @@ const questions = [
         title: "Qu’est-ce que le changement climatique ?",
         category: categories.one,
         answer:
-"- Un changement climatique, ou dérèglement climatique, correspond à une modification durable (de la décennie au million d'années) des paramètres statistiques (paramètres moyens, variabilité) du climat global de la Terre ou de ses divers climats régionaux. Ces changements peuvent être dus à des processus intrinsèques à la Terre, à des influences extérieures ou, plus récemment, aux activités humaines. \n" +
-"- Le terme réchauffement climatique désigne l'augmentation de la température moyenne de la surface terrestre en cours aux XXe et XXIe siècles mais aussi, plus généralement, la modification des régimes météorologiques à grande échelle qui en résulte. L'une comme l'autre sont attribuées aux émissions de gaz à effet de serre d'origine humaine : bien qu'il y ait eu des périodes précédentes de changement climatique, depuis le milieu du XXe siècle les activités humaines ont eu un impact sans précédent sur le système climatique de la Terre et ont provoqué des changements à l'échelle mondiale. \n" +
-
+"- Un changement climatique, ou dérèglement climatique, correspond à une modification durable (de la décennie au million d'années) des paramètres statistiques (paramètres moyens, variabilité) du climat global de la Terre ou de ses divers climats régionaux. Ces changements peuvent être dus à des processus intrinsèques à la Terre, à des influences extérieures ou, plus récemment, aux activités humaines. \n" +
+"- Le terme réchauffement climatique désigne l'augmentation de la température moyenne de la surface terrestre en cours aux XXe et XXIe siècles mais aussi, plus généralement, la modification des régimes météorologiques à grande échelle qui en résulte. L'une comme l'autre sont attribuées aux émissions de gaz à effet de serre d'origine humaine : bien qu'il y ait eu des périodes précédentes de changement climatique, depuis le milieu du XXe siècle les activités humaines ont eu un impact sans précédent sur le système climatique de la Terre et ont provoqué des changements à l'échelle mondiale. \n",
         sources: [
             '[https://fr.wikipedia.org/wiki/Variabilit%C3%A9_et_changements_climatiques](https://fr.wikipedia.org/wiki/Variabilit%C3%A9_et_changements_climatiques)',
             '[https://fr.wikipedia.org/wiki/R%C3%A9chauffement_climatique](https://fr.wikipedia.org/wiki/R%C3%A9chauffement_climatique)',
@@ -21,11 +20,11 @@ const questions = [
         title: "Météo et climat: quelle différence ?",
         category: categories.one,
         answer:
-"- La météorologie, étudie les processus qui pilotent la dynamique de l’atmosphère et leur mise en équations, notamment en vue de la prévision du temps. Cette prévision n’a plus de sens au bout d’une dizaine de jours car l’état de l’atmosphère à un jour et un endroit donné, dépend fortement des conditions initiales. Cela est lié au caractère chaotique de la circulation atmosphérique.\n" +
+"- La météorologie, étudie les processus qui pilotent la dynamique de l’atmosphère et leur mise en équations, notamment en vue de la prévision du temps. Cette prévision n’a plus de sens au bout d’une dizaine de jours car l’état de l’atmosphère à un jour et un endroit donné, dépend fortement des conditions initiales. Cela est lié au caractère chaotique de la circulation atmosphérique.\n" +
 "- La météo, c'est le temps qu’il fait à un moment et à un endroit donné.\n" +
 "- Les prévisions météorologiques n’ont de validité que localement et pour une période courte, de quelques jours. C’est pourquoi une période de froid prononcée localement, ne remet pas en cause la réalité du réchauffement planétaire. De même, une tempête inhabituellement violente n’est pas forcément une preuve de modification du climat. Pour l’affirmer, il faut pouvoir constater que la fréquence d’un événement climatique augmente de façon significative dans une région donnée et sur une longue période. \n" +
-"- La climatologie analyse l’état moyen de l’atmosphère et des océans sur les grandes échelles de temps et étudie les processus physiques qui sont pertinents sur le long terme. Pour cette analyse, les conditions initiales n’ont pas d’importance. \n",
-"- L'évolution du climat s'observe sur une plus longue période.\n",
+"- La climatologie analyse l’état moyen de l’atmosphère et des océans sur les grandes échelles de temps et étudie les processus physiques qui sont pertinents sur le long terme. Pour cette analyse, les conditions initiales n’ont pas d’importance. \n" +
+"- L'évolution du climat s'observe sur une plus longue période.\n" +
 "- Le climat désigne les valeurs moyennes des paramètres météorologiques (précipitations, températures, nébulosité...) mesurées sur de longues périodes et sur des secteurs géographiques vastes et bien définis, appelés zones climatiques. 30 ans d’observations sont nécessaires pour définir des caractéristiques d’ordre climatique. \n",
         sources: [
             '[https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat](https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat)',
@@ -36,7 +35,7 @@ const questions = [
         category: categories.one,
         answer:
 "- Le GIEC est le Groupe d’experts intergouvernemental sur l’évolution du climat (GIEC) a été créé en 1988 en vue de fournir des évaluations détaillées de l’état des connaissances scientifiques, techniques et socio-économiques sur les changements climatiques, leurs causes, leurs répercussions potentielles et les stratégies de parade.\n" +
-"- Le dernier rapport du GIEC en chiffres : 234 auteurs, 14000 papiers scientifiques, 78007 commentaires des gouvernements et d’experts.\n" +
+"- Le dernier rapport du GIEC en chiffres : 234 auteurs, 14000 papiers scientifiques, 78007 commentaires des gouvernements et d’experts.\n",
         sources: [
             '[https://www.ipcc.ch/about/](https://www.ipcc.ch/about/)',
         ]
@@ -58,7 +57,7 @@ const questions = [
         title: "Pourquoi la Terre se réchauffe t'elle ?",
         category: categories.one,
         answer:
-"- Les activités humaines qui rejettent dans l’atmosphère des quantités considérables de gaz à effet de serre, ce qui modifie les valeurs du rayonnement : telle une couverture, les gaz à effet de serre empêchent une partie du rayonnement infrarouge de partir dans l’espace. Un déséquilibre se crée alors dans le bilan. C’est le *forçage radiatif*.\n" +
+"- Les activités humaines qui rejettent dans l’atmosphère des quantités considérables de gaz à effet de serre, ce qui modifie les valeurs du rayonnement : telle une couverture, les gaz à effet de serre empêchent une partie du rayonnement infrarouge de partir dans l’espace. Un déséquilibre se crée alors dans le bilan. C’est le *forçage radiatif*.\n" +
 "- Voici les différentes composantes du forçage radiatif :\n" +
 "   - Les gaz à effet de serre \n" +
 "   - Les polluants à courte durée de vie \n" +
@@ -88,10 +87,10 @@ const questions = [
         category: categories.one,
         answer: 
         "- Pour avoir une vision globale de ses émissions de GES, il faut calculer son empreinte carbone : https://nosgestesclimat.fr/  \n" +
-        "- Les postes d'émissions qui sont en moyenne les plus émetteurs par personne sont : \n",
-        "   - Un régime carné \n",
-        "   - Transport en voiture individuelle \n",
-        "   - Transport en avion \n",
+        "- Les postes d'émissions qui sont en moyenne les plus émetteurs par personne sont : \n" +
+        "   - Un régime carné \n" +
+        "   - Transport en voiture individuelle \n" +
+        "   - Transport en avion \n" +
         "   - Chauffage au gaz ou au fioul \n",
         sources: [
             '[https://nosgestesclimat.fr/](https://nosgestesclimat.fr/)'
@@ -165,7 +164,7 @@ const questions = [
         title: "Pourquoi parles-t'on d'injustice climatique ?",
         category: categories.one,
         answer: 
-        "- La moitié la plus pauvre de la population mondiale n’est responsable que de 10% des émissions de CO2, tandis que les 10% les plus riches de la planète génèrent à eux seuls 50% de ces émissions. \n" +
+        "- La moitié la plus pauvre de la population mondiale n’est responsable que de 10% des émissions de CO2, tandis que les 10% les plus riches de la planète génèrent à eux seuls 50% de ces émissions. \n" +
         "- 1 % des plus riches ont une empreinte carbone huit fois supérieure à la moitié la plus pauvre des Français. \n" +
         "- La fiscalité carbone pèse proportionnellement quatre fois plus sur les 20 % de foyers les plus précaires que sur les 20 % de ménages les plus riches. \n" +
         "- Les plus pauvres sont les plus exposés au changement climatique. \n" +
