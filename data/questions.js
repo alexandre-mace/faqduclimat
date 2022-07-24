@@ -32,6 +32,16 @@ const questions = [
         ]
     },
     {
+        title: "Le GIEC ?",
+        category: categories.one,
+        answer:
+"- Le GIEC est le Groupe d’experts intergouvernemental sur l’évolution du climat (GIEC) a été créé en 1988 en vue de fournir des évaluations détaillées de l’état des connaissances scientifiques, techniques et socio-économiques sur les changements climatiques, leurs causes, leurs répercussions potentielles et les stratégies de parade.\n" +
+"- Le dernier rapport du GIEC en chiffres : 234 auteurs, 14000 papiers scientifiques, 78007 commentaires des gouvernements et d’experts.\n" +
+        sources: [
+            '[https://www.ipcc.ch/about/](https://www.ipcc.ch/about/)',
+        ]
+    },
+    {
         title: "Que dit le GIEC sur le climat ?",
         category: categories.one,
         answer:
