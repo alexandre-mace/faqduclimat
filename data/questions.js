@@ -84,7 +84,24 @@ const questions = [
         ]
     },
     {
-        title: "Est-il trop tard pour agir ?",
+        title: "Comment réduire mes émissions de GES ?",
+        category: categories.one,
+        answer: 
+        "- Pour avoir une vision globale de ses émissions de GES, il faut calculer son empreinte carbone : https://nosgestesclimat.fr/  \n" +
+        "- Les postes d'émissions qui sont en moyenne les plus émetteurs par personne sont : \n",
+        "   - Un régime carné \n",
+        "   - Transport en voiture individuelle \n",
+        "   - Transport en avion \n",
+        "   - Chauffage au gaz ou au fioul \n",
+        sources: [
+            '[https://www.youtube.com/watch?v=iiKuUElvGhM](https://www.youtube.com/watch?v=iiKuUElvGhM)',
+            '[https://www.carbonbrief.org/explainer-will-global-warming-stop-as-soon-as-net-zero-emissions-are-reached/](https://www.carbonbrief.org/explainer-will-global-warming-stop-as-soon-as-net-zero-emissions-are-reached/)',
+            '[https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/](https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/)',
+            '[https://www.novethic.fr/actualite/environnement/climat/isr-rse/science-meme-avec-un-rechauffement-limite-a-2-c-la-fonte-des-glaces-pourrait-etre-irreversible-et-entrainer-une-montee-des-oceans-catastrophique-146591.html](https://www.novethic.fr/actualite/environnement/climat/isr-rse/science-meme-avec-un-rechauffement-limite-a-2-c-la-fonte-des-glaces-pourrait-etre-irreversible-et-entrainer-une-montee-des-oceans-catastrophique-146591.html)'
+        ]
+    },
+    {
+        title: "Comment puis-je agir ?",
         category: categories.one,
         answer: 
         "- Non, il n'est pas trop tard pour agir sur le réchauffement planétaire : \"le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique\" \n" +
