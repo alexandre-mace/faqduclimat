@@ -98,7 +98,7 @@ const questions = [
         ]
     },
     {
-        title: "Comment puis-je agir ?",
+        title: "Est-il trop tard pour agir ?",
         category: categories.one,
         answer: 
         "- Non, il n'est pas trop tard pour agir sur le réchauffement planétaire : \"le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique\" \n" +
