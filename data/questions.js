@@ -165,6 +165,7 @@ const questions = [
         title: "Pourquoi parles-t'on d'injustice climatique ?",
         category: categories.one,
         answer: 
+        "- La moitié la plus pauvre de la population mondiale n’est responsable que de 10% des émissions de CO2, tandis que les 10% les plus riches de la planète génèrent à eux seuls 50% de ces émissions. \n" +
         "- 1 % des plus riches ont une empreinte carbone huit fois supérieure à la moitié la plus pauvre des Français. \n" +
         "- La fiscalité carbone pèse proportionnellement quatre fois plus sur les 20 % de foyers les plus précaires que sur les 20 % de ménages les plus riches. \n" +
         "- Les plus pauvres sont les plus exposés au changement climatique. \n" +
