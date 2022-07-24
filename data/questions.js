@@ -6,11 +6,23 @@ const categories = {
 
 const questions = [
     {
+        title: "Qu’est-ce que le changement climatique ?",
+        category: categories.one,
+        answer:
+"- Un changement climatique, ou dérèglement climatique, correspond à une modification durable (de la décennie au million d'années) des paramètres statistiques (paramètres moyens, variabilité) du climat global de la Terre ou de ses divers climats régionaux. Ces changements peuvent être dus à des processus intrinsèques à la Terre, à des influences extérieures ou, plus récemment, aux activités humaines. \n" +
+"- Le terme réchauffement climatique désigne l'augmentation de la température moyenne de la surface terrestre en cours aux XXe et XXIe siècles mais aussi, plus généralement, la modification des régimes météorologiques à grande échelle qui en résulte. L'une comme l'autre sont attribuées aux émissions de gaz à effet de serre d'origine humaine : bien qu'il y ait eu des périodes précédentes de changement climatique, depuis le milieu du XXe siècle les activités humaines ont eu un impact sans précédent sur le système climatique de la Terre et ont provoqué des changements à l'échelle mondiale. \n" +
+
+        sources: [
+            '[https://fr.wikipedia.org/wiki/Variabilit%C3%A9_et_changements_climatiques](https://fr.wikipedia.org/wiki/Variabilit%C3%A9_et_changements_climatiques)',
+            '[https://fr.wikipedia.org/wiki/R%C3%A9chauffement_climatique](https://fr.wikipedia.org/wiki/R%C3%A9chauffement_climatique)',
+        ]
+    },
+    {
         title: "Que dit le GIEC sur le climat ?",
         category: categories.one,
         answer:
 "- Il est incontestable que l’influence humaine a réchauffé l’atmosphère, les océans et les terres.\n" +
-"- 100% du réchauffement climatique est dû aux activités humaines.\n" +
+"- 100% du réchauffement climatique en cours est dû aux activités humaines.\n" +
 "- L’ampleur des changements récents dans l’ensemble du système climatique et l’état actuel de nombreux aspects du système climatique sont sans précédent, de plusieurs siècles à plusieurs milliers d’années.\n" +
 "- Le changement climatique d’origine humaine affecte déjà de nombreux phénomènes météorologiques et climatiques extrêmes dans toutes les régions du monde.\n",
         sources: [
@@ -18,6 +30,7 @@ const questions = [
             '[https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/](https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/)',
         ]
     },
+   
     {
         title: "Est-il trop tard pour agir ?",
         category: categories.one,
