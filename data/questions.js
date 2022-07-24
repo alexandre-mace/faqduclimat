@@ -31,7 +31,7 @@ const questions = [
         ]
     },
     {
-        title: "Le GIEC ?",
+        title: "Qu'est ce que le GIEC ?",
         category: categories.one,
         answer:
 "- Le GIEC est le Groupe d’experts intergouvernemental sur l’évolution du climat (GIEC) a été créé en 1988 en vue de fournir des évaluations détaillées de l’état des connaissances scientifiques, techniques et socio-économiques sur les changements climatiques, leurs causes, leurs répercussions potentielles et les stratégies de parade.\n" +
@@ -96,7 +96,7 @@ const questions = [
         ]
     },
     {
-        title: "Réduire mes émissions de GES et empreinte carbone ?",
+        title: "Comment réduire mes émissions de GES / mon empreinte carbone ?",
         category: categories.one,
         answer: 
         "- Pour avoir une vision globale de ses émissions de GES, il faut calculer son empreinte carbone : https://nosgestesclimat.fr/  \n" +
@@ -125,7 +125,7 @@ const questions = [
         ]
     },
     {
-        title: "Mourir de chaud ?",
+        title: "A partir de quelle température peut-on mourir de chaud ?",
         category: categories.one,
         answer: 
         "- Le mélange de chaleur et d’humidité est à un certain seuil insupportable pour l’humain et même en excellente santé, cela peut être mortel en seulement quelques heures. Dans un monde plus chaud, le stress thermique humide peut se produire pendant des mois et dans plusieurs régions du monde, y compris dans les régions densément peuplées. \n" +
@@ -149,7 +149,7 @@ const questions = [
         ]
     },
     {
-        title: "Les évenements météorologiques extrêmes sont-ils vraiment dus au changement climatique ?",
+        title: "Les événements météorologiques extrêmes sont-ils dus au changement climatique ?",
         category: categories.one,
         answer: 
         "- 2022: La vague de chaleur qui frappe l’Inde et le Pakistan depuis début mars a été rendue trente fois plus probable par le changement climatique. \n" +
