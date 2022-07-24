@@ -45,6 +45,24 @@ const questions = [
         ]
     },
     {
+        title: "Pourquoi la Terre se réchauffe t'elle ?",
+        category: categories.one,
+        answer:
+"- Les activités humaines qui rejettent dans l’atmosphère des quantités considérables de gaz à effet de serre, ce qui modifie les valeurs du rayonnement : telle une couverture, les gaz à effet de serre empêchent une partie du rayonnement infrarouge de partir dans l’espace. Un déséquilibre se crée alors dans le bilan. C’est le *forçage radiatif*.\n" +
+"- Voici les différentes composantes du forçage radiatif :\n" +
+"   - Les gaz à effet de serre \n" +
+"   - Les polluants à courte durée de vie \n" +
+"   - Les aérosols \n" +
+"   - Et leurs interactions avec les nuages \n" +
+"   - Le changement d’albédo causé par la modification des sols \n" +
+"   - Les causes naturelles : variations solaires et éruptions volcaniques \n" +
+"- L’albédo désigne la capacité de la terre à réfléchir les rayonnements lumineux (donc à ne pas les absorber). Les aérosols sont des petites particules solides ou liquides en suspension dans l’air, il agissent comme des mini réflecteurs du rayonnement. \n",
+        sources: [
+            '[https://fr.wikipedia.org/wiki/For%C3%A7age_radiatif](https://fr.wikipedia.org/wiki/For%C3%A7age_radiatif)',
+            '[https://bonpote.com/forcage-radiatif-a-la-base-du-changement-climatique](https://bonpote.com/forcage-radiatif-a-la-base-du-changement-climatique)',
+        ]
+    },
+    {
         title: "Est-il trop tard pour agir ?",
         category: categories.one,
         answer: 
