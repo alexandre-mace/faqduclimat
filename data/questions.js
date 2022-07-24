@@ -83,7 +83,20 @@ const questions = [
         ]
     },
     {
-        title: "Comment réduire mes émissions de GES ?",
+        title: "Quels secteurs émettent le plus de GES ?",
+        category: categories.one,
+        answer:
+            "- Dans le monde voici les 4 secteurs qui emettent le plus de GES en 2016  \n" +
+            "   - Industrie (24,2%) \n" +
+            "   - Agriculture et usages des sols (18,4%) \n" +
+            "   - Bâtiment (17,5%) \n" +
+            "   - Transport (16,2%) \n",
+        sources: [
+            '[https://ourworldindata.org/emissions-by-sector](https://ourworldindata.org/emissions-by-sector)',
+        ]
+    },
+    {
+        title: "Réduire mes émissions de GES et empreinte carbone ?",
         category: categories.one,
         answer: 
         "- Pour avoir une vision globale de ses émissions de GES, il faut calculer son empreinte carbone : https://nosgestesclimat.fr/  \n" +
@@ -93,7 +106,8 @@ const questions = [
         "   - Transport en avion \n" +
         "   - Chauffage au gaz ou au fioul \n",
         sources: [
-            '[https://nosgestesclimat.fr/](https://nosgestesclimat.fr/)'
+            '[https://nosgestesclimat.fr/](https://nosgestesclimat.fr/)',
+            '[https://fr.wikipedia.org/wiki/Empreinte_carbone](https://fr.wikipedia.org/wiki/Empreinte_carbone)'
         ]
     },
     {
