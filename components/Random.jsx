@@ -5,17 +5,22 @@ import Answer from "./Answer";
 import QuestionCategory from "./QuestionCategory";
 
 const Random = ({questions}) => {
-    const [randomIndex, setRandomIndex] = useState(Math.floor(Math.random() * questions.length));
+    const [randomQuestion, setRandomQuestion] = useState(questions[Math.floor(Math.random() * questions.length)]);
+
+    const newRandomIndex = () => {
+        const questionsWithoutCurrent = questions.filter((question) => question !== randomQuestion)
+        setRandomQuestion(questions[Math.floor(Math.random() * questionsWithoutCurrent.length)])
+    }
 
     return (
         <div className="w-full">
             <div className="w-full flex justify-center mb-3">
-                <button onClick={() => setRandomIndex(Math.floor(Math.random() * questions.length))} className={"inline-block rounded-lg bg-gradient-to-r to-purple-500 from-indigo-500 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none focus:ring focus:ring-purple-500/40 focus:ring-opacity-75"}>
+                <button onClick={() => newRandomIndex()} className={"inline-block rounded-lg bg-gradient-to-r to-purple-500 from-indigo-500 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none focus:ring focus:ring-purple-500/40 focus:ring-opacity-75"}>
                     Nouvelle question aléatoire 🔀
                 </button>
             </div>
             <div className="mode-wrapper">
-                {[questions[randomIndex]].map((question, index) => (
+                {[randomQuestion].map((question, index) => (
                     <React.Fragment key={index}>
                         <QuestionCategory question={question}/>
                         <QuestionAnswer key={index} index={index} question={question}/>

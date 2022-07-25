@@ -13,9 +13,9 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className="text-4xl md:text-6xl font-bold">
-                    Faq du climat
+                    FAQ du climat
                 </h1>
-                <p className={"mt-6 text-center text-fdark-200 text-lg"}>Les réponses à tes questionnements sur le climat</p>
+                <p className={"mt-4 text-center text-fdark-200 text-lg"}>Les réponses à tes questions sur le climat</p>
                 {/*<div className={"text-sm"}>*/}
                     <Faq/>
                 {/*</div>*/}

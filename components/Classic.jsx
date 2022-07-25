@@ -27,8 +27,8 @@ const QuestionAnswer = ({question, index}) => (
             <>
                 <Disclosure.Button
                     className={`${
-                        open ? 'ring-gray-700 ring-opacity-50 focus:outline-none focus:ring-2' : ''
-                    } flex w-full justify-between rounded-lg bg-fdark-300 px-4 py-2 text-left  font-medium text-white hover:bg-fpurple-500 focus:outline-none focus-visible:ring focus-visible:ring-gray-500 focus-visible:ring-opacity-75`}>
+                        open ? 'ring-gray-700 ring-opacity-50 focus:outline-none focus:ring-2 rounded-t-lg' : 'rounded-lg'
+                    } flex w-full justify-between bg-fdark-300 px-4 py-2 text-left font-medium text-white hover:bg-fpurple-500 focus:outline-none focus-visible:ring focus-visible:ring-gray-500 focus-visible:ring-opacity-75`}>
                     <span>{question.title}</span>
                     <ChevronUpIcon
                         className={`${
