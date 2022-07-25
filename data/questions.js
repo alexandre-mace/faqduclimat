@@ -96,6 +96,17 @@ const questions = [
         ]
     },
     {
+        title: "Emissions de GES et empreinte carbone : quelle différence ?",
+        category: categories.one,
+        answer:
+            "- La plupart du temps, lorsque l'on parle des émissions de GES d'un pays, l'import et l'export de sont pas pris en compte, on parle d'emissions \"sur le territoire\".  \n" +
+            "- L'empreinte constitue un calcul plus \"réaliste\" car elle prend en compte l'import et l'export" +
+            "- L'exemple de la France : ceci explique notamment le fait que la tertiarisation de la France a fait baisser les emissions de GES de la France pour le secteur industrie, mais ces nouvelles émissions délocalisées sont pris en compte dans *l'empreinte carbone*. L'empreinte de la France est quasiment le double de ses émissions.\n",
+        sources: [
+            '[https://ourworldindata.org/emissions-by-sector](https://ourworldindata.org/emissions-by-sector)',
+        ]
+    },
+    {
         title: "Comment réduire mes émissions de GES / mon empreinte carbone ?",
         category: categories.one,
         answer: 
