@@ -15,7 +15,7 @@ const Faq = () => {
     return (
         <div className="w-full max-w-2xl pt-10 md:px-8">
             <Tab.Group>
-                <Tab.List className="flex space-x-1 rounded-xl border-gray-700 border-opacity-50 bg-gradient-to-r to-indigo-500 from-purple-500 p-2 shadow">
+                <Tab.List className="flex space-x-2 rounded-xl border-gray-700 border-opacity-50 bg-gradient-to-r to-indigo-500 from-purple-500 p-2 shadow">
                     {(modes).map((mode) => (
                         <Tab
                             key={mode}
