@@ -1,6 +1,8 @@
 import { Disclosure } from '@headlessui/react'
 import {useState} from "react";
+import React from "react";
 import Answer from "./Answer";
+import QuestionCategory from "./QuestionCategory";
 
 const Random = ({questions}) => {
     const [randomIndex, setRandomIndex] = useState(Math.floor(Math.random() * questions.length));
@@ -12,12 +14,12 @@ const Random = ({questions}) => {
                     Nouvelle question aléatoire 🔀
                 </button>
             </div>
-            <div className="mx-auto w-full max-w-2xl rounded-2xl bg-gradient-to-r to-indigo-500 from-purple-500 p-3 shadow">
+            <div className="mode-wrapper">
                 {[questions[randomIndex]].map((question, index) => (
-                    <>
-                        <div className={`text-white font-semibold bg-gradient-to-r to-indigo-900/80 from-purple-900/80 inline-block rounded-lg py-1 px-3`}>{question.category}</div>
+                    <React.Fragment key={index}>
+                        <QuestionCategory question={question}/>
                         <QuestionAnswer key={index} index={index} question={question}/>
-                    </>
+                    </React.Fragment>
                 ))}
             </div>
         </div>

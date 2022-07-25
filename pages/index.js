@@ -16,7 +16,9 @@ export default function Home() {
                     Faq du climat
                 </h1>
                 <p className={"mt-6 text-center text-fdark-200 text-lg"}>Les réponses à tes questionnements sur le climat</p>
-                <Faq/>
+                {/*<div className={"text-sm"}>*/}
+                    <Faq/>
+                {/*</div>*/}
             </main>
 
             <footer className={styles.footer}>
