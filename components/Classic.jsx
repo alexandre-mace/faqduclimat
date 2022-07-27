@@ -1,25 +1,54 @@
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
 import Answer from "./Answer";
-import React from "react"
+import React, {useState} from "react"
 import QuestionCategory from "./QuestionCategory";
+import categories from "./../data/categories";
 
-const Classic = ({questions}) => (
-    <div className="w-full">
-        <div className="mode-wrapper">
-            {questions.map((question, index) => (
-                <React.Fragment key={index}>
-                    {((index > 1 && question.category !== questions[index - 1].category) || index === 0) &&
-                        <div className={`${index === 0 ? '' : 'mt-3'}`}>
-                            <QuestionCategory question={question}/>
-                        </div>
-                    }
-                    <QuestionAnswer key={index} index={index} question={question}/>
-                </React.Fragment>
-            ))}
+const Classic = ({questions}) => {
+    const [seeMore, setSeeMore] = useState({
+        [categories.one]: false,
+        [categories.two]: false,
+        [categories.three]: false,
+    })
+
+    return (
+        <div className="w-full">
+            <div className="mode-wrapper">
+                {questions.map((question, index) => (
+                    <React.Fragment key={index}>
+                        {((!seeMore[question.category] && question.priority >= 1) || seeMore[question.category]) &&
+                        <>
+                            {((index > 1 && question.category !== questions[index - 1].category) || index === 0) &&
+                                <div className={`${index === 0 ? '' : 'mt-3'}`}>
+                                    <QuestionCategory question={question}/>
+                                </div>
+                            }
+                            <QuestionAnswer key={index} index={index} question={question}/>
+                        </>
+                        }
+                        {(
+                            (index === questions.length - 1 || (index > 1 && question.category !== questions[index - 1].category))
+                        ) &&
+                            <div className={"text-center"}>
+                                {!seeMore[question.category] &&
+                                    <button onClick={() => setSeeMore({...seeMore, [question.category]: true})} className={"inline-block rounded-lg bg-gradient-to-r to-purple-900 from-fdark-300 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none focus:ring focus:ring-purple-500/40 focus:ring-opacity-75 mt-2"}>
+                                    Voir plus 👀
+                                    </button>
+                                }
+                                {seeMore[question.category] &&
+                                    <button onClick={() => setSeeMore({...seeMore, [question.category]: false})} className={"inline-block rounded-lg bg-gradient-to-r to-purple-900 from-indigo-900 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none focus:ring focus:ring-purple-500/40 focus:ring-opacity-75 mt-2"}>
+                                        Voir moins 👻
+                                    </button>
+                                }
+                            </div>
+                        }
+                    </React.Fragment>
+                ))}
+            </div>
         </div>
-    </div>
-)
+    )
+}
 
 const QuestionAnswer = ({question, index}) => (
     <Disclosure key={index} as="div" className={'mt-2'}>
