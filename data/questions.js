@@ -228,7 +228,7 @@ const questions = [
     },
     {
         title: "Qu'est ce que l'énergie ?",
-        category: categories.one,
+        category: categories.two,
         priority: 1,
         answer:
         "- Il s’agit de la grandeur qui caractérise un changement d’état d’un système. Bigre ! Voici bien des mots compliqués ! En fait c’est très simple : cela ne dit rien d’autre que le fait que dès que le monde qui nous entoure (= « un système ») change, de l’énergie entre en jeu, et la mesure de cette énergie mesure le degré de transformation entre avant et après. \n",
@@ -239,7 +239,7 @@ const questions = [
     },
     {
         title: "Comment décarbonner le système énergétique actuel de la France ?",
-        category: categories.one,
+        category: categories.two,
         priority: 1,
         answer:
         "- Atteindre la neutralité carbone implique une transformation de l’économie et des modes de vie, et une restructuration du système permettant à l’électricité de remplacer les énergies fossiles comme principale énergie du pays. \n" +
