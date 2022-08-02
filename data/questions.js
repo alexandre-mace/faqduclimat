@@ -14,6 +14,19 @@ const questions = [
         ]
     },
     {
+        title: "Quelles sont les conséquences du changement climatique ?",
+        category: categories.one,
+        priority: 1,
+        answer:
+"- En modifiant les équilibres naturels (températures, cycle de l’eau, courants marins et aériens…), le dérèglement climatique est responsable de perturbations importantes. Parmi les conséquences les plus immédiates : l’augmentation de la fréquence, de la durée et de l’intensité des événements météorologiques extrêmes (inondations, tempêtes, cyclones, sécheresses et feux de forêts, épisodes caniculaires…). \n" +
+"- D’autres phénomènes à évolution plus lente sont aussi perceptibles : la fonte des glaces et l’élévation du niveau des mers, l’érosion progressive des côtes, la désertification, la raréfaction des ressources, le bouleversement des écosystèmes et la disparition de certaines espèces. \n" +
+"- Ces impacts peuvent être très différents d’une région à l’autre, mais ils concernent toute la planète et s’intensifieront au cours des prochaines décennies. \n",
+        sources: [
+            '[https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/)',
+            '[https://www.oxfamfrance.org/climat-et-energie/comprendre-les-changements-climatiques/](https://www.oxfamfrance.org/climat-et-energie/comprendre-les-changements-climatiques/)',
+        ]
+    },
+    {
         title: "Météo et climat: quelle différence ?",
         category: categories.one,
         priority: 1,
