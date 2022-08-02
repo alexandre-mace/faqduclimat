@@ -236,6 +236,40 @@ const questions = [
             '[https://jancovici.com/transition-energetique/l-energie-et-nous/lenergie-de-quoi-sagit-il-exactement/](https://jancovici.com/transition-energetique/l-energie-et-nous/lenergie-de-quoi-sagit-il-exactement/)',
             '[https://fr.wikipedia.org/wiki/%C3%89nergie](https://fr.wikipedia.org/wiki/%C3%89nergie)',
         ]
+    },
+    {
+        title: "Comment décarbonner le système énergétique actuel de la France ?",
+        category: categories.one,
+        priority: 1,
+        answer:
+        "- Atteindre la neutralité carbone implique une transformation de l’économie et des modes de vie, et une restructuration du système permettant à l’électricité de remplacer les énergies fossiles comme principale énergie du pays. \n" +
+        "-  ### Sur la consommation  \n" +
+        "- 1) Agir sur la consommation grâce à l’efficacité énergétique, voire la sobriété est indispensable pour atteindre les objectifs climatiques \n" +
+        "- 2) La consommation d’énergie va baisser mais celle d’électricité va augmenter pour se substituer aux énergies fossiles \n" +
+        "- 3) Accélérer la réindustrialisation du pays, en électrifiant les procédés, augmente la consommation d’électricité mais réduit l’empreinte carbone de la France \n" +
+        "- ### Sur la transformation du mix électrique \n" +
+        "- 4) Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables \n" +
+        "- 5) Se passer de nouveaux réacteurs nucléaires implique des rythmes de développement des énergies renouvelables plus rapides que ceux des pays européens les plus dynamiques \n" +
+        "- ### Sur l’économie \n" +
+        "- 6) Construire de nouveaux réacteurs nucléaires est pertinent du point de vue économique, a fortiori quand cela permet de conserver un parc d’une quarantaine de GW en 2050 (nucléaire existant et nouveau nucléaire) \n" +
+        "- 7) Les énergies renouvelables électriques sont devenues des solutions compétitives. Cela est d’autant plus marqué dans le cas de grands parcs solaires et éoliens à terre et en mer \n" +
+        "- 8) Les moyens de pilotage dont le système a besoin pour garantir la sécurité d’approvisionnement sont très différents selon les scénarios. Il y a un intérêt économique à accroître le pilotage de la consommation, à développer des interconnexions et du stockage hydraulique, ainsi qu’à installer des batteries pour accompagner le solaire. Au-delà, le besoin de construire de nouvelles centrales thermiques assises sur des stocks de gaz décarbonés (dont l’hydrogène) est important si la relance du nucléaire est minimale et il devient massif – donc coûteux - si l’on tend vers 100% renouvelables \n" +
+        "- 9) Dans tous les scénarios, les réseaux électriques doivent être rapidement redimensionnés pour rendre possible la transition énergétique \n" +
+        "- ### Sur la technologie \n" +
+        "- 10) Créer un « système hydrogène bas-carbone » performant est un atout pour décarboner certains secteurs difficiles à électrifier, et une nécessité dans les scénarios à très fort développement en renouvelables pour stocker l’énergie \n" +
+        "- 11) Les scénarios à très hautes parts d’énergies renouvelables, ou celui nécessitant la prolongation des réacteurs nucléaires existants au-delà de 60 ans, impliquent des paris technologiques lourds pour être au rendez-vous de la neutralité carbone en 2050 \n" +
+        "- 12) La transformation du système électrique doit intégrer dès à présent les conséquences probables du changement climatique, notamment sur les ressources en eau, les vagues de chaleur ou les régimes de vent \n" +
+        "- ### Sur l’espace et l’environnement  \n" +
+        "- 13) Le développement des énergies renouvelables soulève un enjeu d’occupation de l’espace et de limitation des usages. Il peut s’intensifier sans exercer de pression excessive sur l’artificialisation des sols, mais doit se poursuivre dans chaque territoire en s’attachant à la préservation du cadre de vie \n" +
+        "- 14) Même en intégrant le bilan carbone complet des infrastructures sur l’ensemble de leur cycle de vie, l’électricité en France restera très largement décarbonée et contribuera fortement à l’atteinte de la neutralité carbone en se substituant aux énergies fossiles \n" +
+        "- 15) L’économie de la transition énergétique peut générer des tensions sur l’approvisionnement en ressources minérales, particulièrement pour certains métaux, qu’il sera nécessaire d’anticiper \n" +
+        "- ### Généraux  \n" +
+        "- 16) Pour 2050, le système électrique de la neutralité carbone peut être atteint à un coût maîtrisable pour la France \n" +
+        "- 17) Pour 2030 : développer les énergies renouvelables matures le plus rapidement possible et prolonger les réacteurs nucléaires existants dans une logique de maximisation de la production bas-carbone augmente les chances d’atteindre la cible du nouveau paquet européen « -55% net » \n" +
+        "- 18) Quel que soit le scénario choisi, il y a urgence à se mobiliser. \n",
+        sources: [
+            '[https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques](https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques)',
+        ]
     }
 ]
 
