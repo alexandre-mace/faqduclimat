@@ -225,6 +225,17 @@ const questions = [
             '[https://twitter.com/valmasdel/status/1538155011070476290?s=20&t=3uEgre3Fm4VLPzDc-ENPPQ](https://twitter.com/valmasdel/status/1538155011070476290?s=20&t=3uEgre3Fm4VLPzDc-ENPPQ)',
             '[https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf](https://report.ipcc.ch/ar6wg2/pdf/IPCC_AR6_WGII_SummaryForPolicymakers.pdf)',
         ]
+    },
+    {
+        title: "Qu'est ce que l'énergie ?",
+        category: categories.one,
+        priority: 1,
+        answer:
+        "- Il s’agit de la grandeur qui caractérise un changement d’état d’un système. Bigre ! Voici bien des mots compliqués ! En fait c’est très simple : cela ne dit rien d’autre que le fait que dès que le monde qui nous entoure (= « un système ») change, de l’énergie entre en jeu, et la mesure de cette énergie mesure le degré de transformation entre avant et après. \n",
+        sources: [
+            '[https://jancovici.com/transition-energetique/l-energie-et-nous/lenergie-de-quoi-sagit-il-exactement/](https://jancovici.com/transition-energetique/l-energie-et-nous/lenergie-de-quoi-sagit-il-exactement/)',
+            '[https://fr.wikipedia.org/wiki/%C3%89nergie](https://fr.wikipedia.org/wiki/%C3%89nergie)',
+        ]
     }
 ]
 
