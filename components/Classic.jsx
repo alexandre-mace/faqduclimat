@@ -28,7 +28,7 @@ const Classic = ({questions}) => {
                         </>
                         }
                         {(
-                            (index === questions.length - 1 || (index > 1 && question.category !== questions[index - 1].category))
+                            (!questions[index + 1]) || (questions[index + 1] && question.category !== questions[index + 1].category)
                         ) &&
                             <div className={"text-center"}>
                                 {!seeMore[question.category] &&
