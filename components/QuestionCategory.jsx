@@ -1,9 +1,9 @@
 import React from "react";
 
-const QuestionCategory = ({question}) => {
+const Category = ({category}) => {
     return (
-        <div className={`text-white font-semibold bg-gradient-to-r to-indigo-900/80 from-purple-900/80 inline-block rounded-lg py-1 px-3`}>{question.category}</div>
+        <div className={`absolute-category text-white font-semibold bg-gradient-to-r to-forange-500 from-fred-500 inline-block rounded-xl pt-1 px-3 pb-10`}>{category}</div>
     )
 }
 
-export default QuestionCategory
+export default Category

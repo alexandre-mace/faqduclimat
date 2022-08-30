@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: General sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -26,7 +27,26 @@ a {
 }
 
 .mode-wrapper {
-  @apply mx-auto w-full max-w-2xl rounded-2xl bg-gradient-to-r to-indigo-500 from-purple-500 p-3 shadow
+  @apply mx-auto w-full max-w-2xl
+}
+
+.category-wrapper {
+  z-index: 10;
+  @apply mx-auto w-full max-w-2xl rounded-xl bg-fdark-400 p-3 shadow mb-16 relative
+}
+
+.absolute-category {
+  position: absolute;
+  left: 0;
+  top: -35px;
+  z-index: -1;
+}
+
+.rounded-bottom-corner {
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 100%;
 }
 
 .sources {
@@ -38,4 +58,14 @@ a {
 }
 .sources a:hover {
   @apply text-gray-200;
+}
+
+header {
+  background: linear-gradient(105.05deg, #FF2048 -19.44%, #FF9900 142.96%);
+  width: 100%;
+  position: relative;
+}
+
+.img-logo {
+  width: 64px;
 }
