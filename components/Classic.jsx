@@ -4,6 +4,7 @@ import Answer from "./Answer";
 import React, {useState} from "react"
 import QuestionCategory from "./QuestionCategory";
 import categories from "./../data/categories";
+import classNames from "../helpers/classNames";
 
 const Classic = ({questions}) => {
     const [seeMore, setSeeMore] = useState({
@@ -17,7 +18,10 @@ const Classic = ({questions}) => {
             <div className="mode-wrapper">
                 {questions.map(((category, index) => (
                     <div className={"relative"} key={index}>
-                        <div className={"category-wrapper"} key={index} id={category.category}>
+                        <div className={classNames(
+                            "category-wrapper",
+                            (index + 1 === questions.length ? '' : 'mb-16')
+                        )} key={index} id={category.category}>
                             {category.questions.map((question, index) => (
                                 <React.Fragment key={index}>
                                     {((!seeMore[category.category] && question.priority >= 1) || seeMore[category.category]) &&

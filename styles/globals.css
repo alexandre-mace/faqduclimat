@@ -32,7 +32,7 @@ a {
 
 .category-wrapper {
   z-index: 10;
-  @apply mx-auto w-full max-w-2xl rounded-xl bg-fdark-400 p-3 shadow mb-16 relative
+  @apply mx-auto w-full max-w-2xl rounded-xl bg-fdark-400 p-3 shadow relative
 }
 
 .absolute-category {
@@ -68,4 +68,8 @@ header {
 
 .img-logo {
   width: 64px;
+}
+
+.mode-selector:hover .emoji-wrapper {
+  @apply bg-gradient-to-r to-forange-500 from-fred-500
 }

@@ -3,10 +3,7 @@ import { Tab } from '@headlessui/react'
 import Classic from "./Classic";
 import questions from "../data/questions";
 import Random from "./Random";
-
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
+import classNames from "../helpers/classNames";
 
 const Faq = () => {
     const modes = [
@@ -22,7 +19,7 @@ const Faq = () => {
     const [selectedMode, setSelectedMode] = useState(modes[0]);
 
     return (
-        <div className="w-full max-w-2xl pt-10 md:px-8 -translate-y-40">
+        <div className="w-full max-w-2xl pt-10 px-6 md:px-8 -translate-y-40">
             <Tab.Group>
                 <Tab.List className="flex space-x-5 rounded-xl border-gray-700 border-opacity-50 shadow">
                     {(modes).map((mode, idx) => (
@@ -31,7 +28,7 @@ const Faq = () => {
                             key={idx}
                             className={({ selected }) =>
                                 classNames(
-                                    'w-full rounded-lg p-0.5 font-medium leading-5 text-white focus:outline-none',
+                                    'w-full rounded-lg p-0.5 font-medium leading-5 text-white focus:outline-none mode-selector',
                                     selected
                                         ? 'bg-fdark-300 bg-fred-500 bg-gradient-to-r to-forange-500 from-fred-500'
                                         : 'bg-fdark-300 hover:bg-fdark-400'
@@ -45,9 +42,9 @@ const Faq = () => {
                                 >
                                 <div className={
                                     classNames(
-                                        'bg-fdark-200 inline-block rounded-xl p-2 text-xl',
+                                        'bg-fdark-200 inline-block rounded-xl p-2 text-xl emoji-wrapper',
                                         (mode.name === selectedMode.name)
-                                            ? 'bg-fred-500 bg-gradient-to-r to-forange-500 from-fred-500'
+                                            ? 'bg-gradient-to-r to-forange-500 from-fred-500'
                                             : ''
                                     )
                                 }>
@@ -70,7 +67,7 @@ const Faq = () => {
                         </div>
                     </div>
                 }
-                <Tab.Panels className="mt-24">
+                <Tab.Panels className={selectedMode.name === modes[0].name ? "mt-24" : "mt-14"}>
                     {modes.map((mode, idx) => (
                         <Tab.Panel key={idx}>
                             {idx === 0 &&
