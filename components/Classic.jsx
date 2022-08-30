@@ -20,19 +20,19 @@ const Classic = ({questions}) => {
                         <div className={"category-wrapper"} key={index} id={category.category}>
                             {category.questions.map((question, index) => (
                                 <React.Fragment key={index}>
-                                    {((!seeMore[category] && question.priority >= 1) || seeMore[category]) &&
+                                    {((!seeMore[category.category] && question.priority >= 1) || seeMore[category.category]) &&
                                         <QuestionAnswer key={index} index={index} question={question}/>
                                     }
                                     {index + 1 === category.questions.length &&
                                         <>
                                             <div className={"text-center mt-3"}>
-                                                {!seeMore[category] &&
-                                                    <button onClick={() => setSeeMore({...seeMore, [category]: true})} className={"inline-block rounded-lg bg-fdark-300 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none mt-2"}>
+                                                {!seeMore[category.category] &&
+                                                    <button onClick={() => setSeeMore({...seeMore, [category.category]: true})} className={"inline-block rounded-lg bg-fdark-300 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none mt-2"}>
                                                         Voir plus 👀
                                                     </button>
                                                 }
-                                                {seeMore[category] &&
-                                                    <button onClick={() => setSeeMore({...seeMore, [category]: false})} className={"inline-block rounded-lg bg-fdark-300 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none mt-2"}>
+                                                {seeMore[category.category] &&
+                                                    <button onClick={() => setSeeMore({...seeMore, [category.category]: false})} className={"inline-block rounded-lg bg-fdark-300 px-4 py-2 text-left font-medium text-white font-semibold focus:outline-none mt-2"}>
                                                         Voir moins 👻
                                                     </button>
                                                 }
