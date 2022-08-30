@@ -10,7 +10,7 @@ const Answer = ({question, random = false}) => {
                 </Disclosure.Panel>
             }
             {random &&
-                <Disclosure as={random ? "div" : "div"} className="p-4 mt-2 text-white bg-fdark-300 rounded-lg prose dark:prose-invert max-w-none">
+                <Disclosure as={random ? "div" : "div"} className="p-4 text-white bg-fdark-300 rounded-b-lg prose dark:prose-invert max-w-none">
                     <AnswerContent question={question}/>
                 </Disclosure>
             }
