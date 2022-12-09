@@ -8,7 +8,7 @@ export default function Home() {
             <Head>
                 <title>FAQ du climat</title>
                 <meta name="description" content="Les réponses à tes questions sur le climat" />
-                <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/page-facing-up_1f4c4.png" />
+                <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magnifying-glass-tilted-left_1f50d.png" />
                 <link href="https://api.fontshare.com/css?f[]=general-sans@500,600,700&amp;display=swap" rel="stylesheet"/>
             </Head>
 
