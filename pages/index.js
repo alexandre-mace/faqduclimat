@@ -8,13 +8,13 @@ export default function Home() {
             <Head>
                 <title>FAQ du climat</title>
                 <meta name="description" content="Les réponses à tes questions sur le climat" />
-                <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magnifying-glass-tilted-left_1f50d.png" />
+                <link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/325/magnifying-glass-tilted-left_1f50d.png" />
                 <link href="https://api.fontshare.com/css?f[]=general-sans@500,600,700&amp;display=swap" rel="stylesheet"/>
             </Head>
 
             <main className={styles.main}>
                 <header className={"text-center pt-8 xl:pt-10 pb-40"}>
-                    <img className={"img-logo inline-block"} src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/325/magnifying-glass-tilted-left_1f50d.png" alt="logo"/>
+                    <img className={"img-logo inline-block"} src="https://em-content.zobj.net/thumbs/320/apple/325/magnifying-glass-tilted-left_1f50d.png" alt="logo"/>
                     <h1 className="text-2xl mt-8 md:text-6xl font-semibold">
                         FAQ du climat
                     </h1>
